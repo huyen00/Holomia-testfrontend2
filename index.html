@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Holomia</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel ="stylesheet" type="text/css" href="style.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+      <div class="container-fluid">
+        <div class="head">
+          <div class="row">
+            <div class="col-sm-4 smart">
+              <h1>Smart<b>VR</b></h1>
+            </div>
+            <div class="col-sm-6">
+              <ul class="nav nav-row"> 
+                <li class="nav-item">
+                  <a class="nav-link" href="#">DASHBOARD</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./conten.html">CONTENT</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">LICENSE</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">SUPPORT</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-sm-2 avata">
+              <div class="buttom-head">
+                <button>Nâng Cấp</button>
+              </div>
+              <div class="img-avat">
+                <img src="resource/img/avata.png" alt="avata">
+              </div>
+            </div>
+          </div>
+        </div>
+<!--CONTENT-->
+        <div class="container">
+          <div class="row">
+              <div class="col-sm-4">
+                  <div class="overview-list">
+                      <div class="overview-item">
+                          <div class="img icon">
+                              <img src="resource/img/1.png" alt="" class=" rectangle">
+                          </div>
+                          <div class="icon">
+                              <p>Nội dung tải lên</p>
+                              <h4>2/10</h4>
+                          </div>
+                      </div>
+                      <hr class="line"/>
+                      <div class="infor">
+                          <a href="#">Quản lý nội dung tải lên</a>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-sm-4">
+                  <div class="overview-list">
+                      <div class="overview-item">
+                          <div class="img icon">
+                              <img src="resource/img/2.png" alt="" class=" rectangle">
+                          </div>
+                          <div class="icon">
+                              <p>Số kính đang thuê</p>
+                              <h4>05</h4>
+                          </div>
+                      </div>
+                      <hr class="line"/>
+                      <div class="infor">
+                          <a href="#">Giới hạn ngay</a>
+                          <p >Hết hạn:20/04/2018</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-sm-4">
+                  <div class="overview-list">
+                      <div class="overview-item">
+                          <div class="img icon">
+                              <img src="resource/img/3.png " alt="" class="rectangle">
+                          </div>
+                          <div class="icon">
+                              <p>Gói thuê</p>
+                              <h4>Free</h4>
+                          </div>
+                      </div>
+                      <hr class="line"/>
+                      <div class="infor">
+                          <a href="#">Nâng cấp gói</a>
+                          <p>10 nội dung miễn phí</p>
+                      </div>
+                  </div>
+              </div>            
+          </div>
+        </div>
+        <!--LỊCH SỬ THUÊ-->
+        <div class="container">
+          <div class="row icon-item">
+            <h3>Lịch sử thuê</h3>
+            <table class="table table.hover">
+              <thead class="table-thead">
+                <tr>
+                  <th>ID</th>
+                  <th>Trạng thái</th>
+                  <th>Gói</th>
+                  <th>Số kính</th>
+                  <th>Ngày bắt đầu</th>
+                  <th>Ngày kết thúc</th>
+                  <th>Nhân viên phụ trách</th>
+                  <th> </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>BD0123</td>
+                  <td><i style =" background-color:#36AF47;border-radius: 4px;">Đang thuê</i></td>
+                  <td>Gói 1</td>
+                  <td>20</td>
+                  <td>20/04/2019</td>
+                  <td>20/05/2019</td>
+                  <td>Nguyễn Thị Nga</td>
+                  <td><button>Gia hạn</button></td>
+              </tr>
+              <tr>
+                  <td>BD0123</td>
+                  <td><i style =" background-color:#F7981C;border-radius: 4px;">Chờ Thanh toán</i></td>
+                  <td>Gói 2</td>
+                  <td>20</td>
+                  <td>20/04/2019</td>
+                  <td>20/05/2019</td>
+                  <td>Nguyễn Thị Nga</td>
+              </tr>
+              <tr>
+                  <td>BD0123</td>
+                  <td><i style =" background-color:#B2B2B2;border-radius: 4px;">Hoàn tất</i></td>
+                  <td>Gói 2</td>
+                  <td>20</td>
+                  <td>20/04/2019</td>
+                  <td>20/05/2019</td>
+                  <td>Nguyễn Thị Nga</td>
+                  <td><button>Gia hạn</button></td>
+              </tr>
+              <tr>
+                  <td>BD0123</td>
+                  <td><i style =" background-color:#ED1C24;border-radius: 4px;">Gần hết hạn</i></td>
+                  <td>Gói 2</td>
+                  <td>20</td>
+                  <td>20/04/2019</td>
+                  <td>20/05/2019</td>
+                  <td>Nguyễn Thị Nga</td>
+                  <td><button>Gia hạn</button></td>
+              </tr>
+              <tr>
+                  <td>BD0123</td>
+                  <td><i style =" background-color:#1CAEED;border-radius: 4px;">Chờ xử lý</i></td>
+                  <td>Gói 2</td>
+                  <td>20</td>
+                  <td>20/04/2019</td>
+                  <td>20/05/2019</td>
+                  <td>Nguyễn Thị Nga</td>
+                  <td><button>Gia hạn</button></td>
+              </tr>
+              </tbody>
+            </table>
+            <hr class="line"/>
+            <a href="#">show more</a>
+          </div>
+        </div>
+
+        <!--NỘI DUNG TẢI LÊN-->
+        <div class="container">
+          <div class="row">
+            <div class="content-upload">
+              <h3>Nội Dung tải lên</h3>
+              <div class="box-image">
+                  <div class="container-img-left">
+                      <div class="img">
+                          <img src="resource/img/4.png" alt="">
+                      </div>
+                  </div>
+                  <div class="container-img-right">
+                      <div class="img">
+                          <img src="resource/img/5.png" alt="">
+                      </div>
+                      <div class="img">
+                          <img src="resource/img/7.png" alt="">
+                      </div>
+                      <div class="img">
+                          <img src="resource/img/9.png" alt="">
+                      </div>
+                      <div class="img">
+                          <img src="resource/img/11.png" alt="">
+                      </div>
+                      <div class="img">
+                          <img src="resource/img/6.png" alt="">
+                      </div>
+                      <div class="img">
+                          <img src="resource/img/8.png" alt="">
+                      </div>
+                      <div class="img">
+                          <img src="resource/img/10.png" alt="">
+                      </div>
+                      <div class="img">
+                          <img src="resource/img/12.png" alt="">
+                      </div>
+
+                  </div>
+
+              </div>
+          </div>
+          </div>
+        </div>
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
