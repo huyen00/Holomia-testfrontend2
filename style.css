@@ -102,3 +102,97 @@ button{
     float :right;
     border-style:none;
 }
+/*--------------------------------CONTENT CHÍNH---------------------------------------*/
+.step-1{
+    display: inline-block;
+   
+}
+.step-2{
+    display: inline-block;
+    margin-top: 50px;
+}
+.step-3{
+    display: inline-block;
+    margin-top: 50px;
+}
+.caption{
+    float:right;
+    margin-left: 90px;
+}
+span{
+    font-size: 30px;
+    color :#3D5AFE;
+    border:3px solid #3D5AFE;
+    border-radius:50%;
+   
+    text-align: center;
+    margin-left: 10px;
+}
+.s{
+    margin-left: 20px;
+}
+.step-1::after{
+    content :"";
+    height:70px;
+    width:2px;
+    background-color: #3D5AFE;
+    position: absolute;
+
+  margin-top: 40px ;
+  
+    transform: translateY(0%);
+    
+}
+.row-content{
+   
+    background: #fff;
+    box-shadow: 0px 0px 16px 9px rgb(0 0 0 / 15%);
+}
+.col1{
+    margin-top: 90px;
+   
+}
+.step{
+    margin-top: 90px;
+}
+.start-now{
+    margin-top: 30px;
+    width:130px;
+}
+
+
+
+
+
+.meals-showcase{
+    list-style:  none;
+    width: 100%;
+
+}
+.meals-showcase li{
+    display: block;
+    float: left;
+    width: 25%;
+}
+.meals-photo{
+    width:100%;
+    margin:0;
+  
+}
+.meals-photo img{
+   
+    width:100%;
+    height:auto;
+   
+    
+
+}
+.container-img-left{
+    width:100%;
+    height:auto;
+   
+}
+.meals-photo img:hover{
+    opacity: 1;
+    transform:scale(1.03);
+}
