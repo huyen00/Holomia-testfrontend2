@@ -1,6 +1,7 @@
 /*-------------------------------HEAD-----------------------------------*/
 .head{
    margin-top: 10px;
+   padding-bottom: 10px;
 }
 .container-fluid{
     background: #FFFFFF;
@@ -38,11 +39,32 @@
    display: inline-block;
    margin-top:20px
 }
+.drop-box{
+    border: 2px solid #3D5AFE; 
+    background: #fff;
+    border-radius: 5px;
+    position:absolute;
+    z-index:2;
+    padding:30px;
+    width:auto;
+   
+}
+
+.conten-box{
+   
+   
+    text-align: right;
+
+}
+.head-box{
+    display:inline-block;
+}
 
 
 /*----------------------------------CONTENT----------------------------------*/
 .container{
     margin-top:90px;
+    z-index: 1;
 }
 .overview-list{
     background: #FFFFFF;
@@ -53,18 +75,16 @@
    
 }
 .overview-item {
-    display: inline-block;
+   
     margin-left: 20px;
 }
 
 
-.content{
-    
-    float: right;
-}
+
 .icon{
     display: inline-block;
     text-align: right;
+    padding:10px;
 }
 .icon img{
     transform: translateY(-40px);
@@ -78,6 +98,9 @@ p{
    float:right;
 
 }
+.infor{
+    padding:10px;
+}
 
 
 /*--------------------------------LỊCH SỬ THUÊ-----------------------------------------*/
@@ -86,9 +109,10 @@ p{
     box-shadow: 0px 0px 16px 9px rgb(0 0 0 / 15%);
     border-radius: 4px;
 }
-.icon-item a{
-    text-align: center;
+.icon-item h3{
+    padding:15px;
 }
+
 .table-thead {
     background-color:#d6cdcd;  
     color:#B2B2B2;
@@ -97,6 +121,10 @@ p{
 button{
     background-color:#3D5AFE; 
     color:#fff;
+}
+.text-align a{
+    text-align: center;
+    padding: 520px;
 }
 /*-------------------------NỘI DUNG TẢI LÊN--------------------------------*/
 .content-upload .box-image .container-img-left .img img{
@@ -141,48 +169,43 @@ button{
     opacity: 1;
     transform:scale(1.03);
 }
+.show{
+    margin-left: 520px;;
+}
 /*--------------------------------CONTENT CHÍNH---------------------------------------*/
+/*
 .step-1{
     display: inline-block;
     margin-bottom: 50px;
    
 }
-.step-1 {
-    display: inline-block;
-}
+
 .number{
     color:#3D5AFE;
     border:2px solid #3D5AFE;
-    
+    display: inline-block;
     border-radius:50%;
     height:50px;
     width:52px;
     text-align: center;
-   
-   
     font-size: 150%;
     margin-right: 45px;
 }
-.step-1.number{
-    display: inline-block;
-}
-
 .step-2{
     display: inline-block;
    
 }
 .step-3{
     display: inline-block;
+   ;
     
 }
 .caption{
-    float:right;
    
+    display: inline-block;
     margin-left: 90px;
   
 }
-    
-
 
 .step-1::after{
     content :"";
@@ -210,6 +233,33 @@ button{
     transform: translateY(0%);
     
 }
+
+.step{
+    margin-top: 90px;
+}
+
+*/
+
+span{
+    color:#3D5AFE;
+    font-size: 30px;
+    display:inline-block;
+    border:2px solid #3D5AFE;
+    border-radius:50%;
+    height:50px;
+    width:52px;
+    text-align: center;
+    margin-right: 45px;
+}
+.caption{
+    display:inline-block;
+   
+}
+h4,p{
+    display:block;
+   
+}
+
 .row-content{
    
     background: #fff;
@@ -219,15 +269,10 @@ button{
     margin-top: 90px;
    
 }
-.step{
-    margin-top: 90px;
-}
 .start-now{
     margin-top: 30px;
     width:130px;
 }
-
-
 
 
 

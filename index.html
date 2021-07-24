@@ -41,8 +41,8 @@
               <div class="img-avat">
                 <img src="resource/img/avata.png" alt="avata">
               </div>
-              <i class="fas fa-caret-down" style="margin-left : 30px;"></i>
-              <div class="drop-icon">
+              <a href="#accoutt" aria-expanded="false" data-toggle="collapse" > <i class="fas fa-caret-down"style="margin-left:30px;" ></i></a>
+              <div class="drop-icon" id="accoutt">
                 <div class="drop-box">
                   <div class="head-box">
                     <div class="avata-box">
@@ -50,17 +50,20 @@
                     </div>
                    
                     <div class="conten-box">
-                      <div class="tital">Nguyễn Thị Nga</div>
+                      <h5>Nguyễn Thị Nga</h5>
                       <p>hoanghuyenn2k@gmail.com</p>
                     </div>
                   </div>
+                  <hr class="line"/>
                   <div class="nav-liist">
                     <div class="nav-item">
                       <a href="#">Lịch sử giao dịch</a>
                     </div>
+                    <hr class="line"/>
                     <div class="nav-item">
                       <a href="#">Cài đặt</a>
                     </div>
+                    <hr class="line"/>
                     <div class="nav-item">
                       <a href="#">Đăng xuất</a>
                     </div>
@@ -104,7 +107,7 @@
                       <hr class="line"/>
                       <div class="infor">
                           <a href="#">Giới hạn ngay</a>
-                          <p >Hết hạn:20/04/2018</p>
+                          <p>Hết hạn:20/04/2018</p>
                       </div>
                   </div>
               </div>
@@ -185,25 +188,51 @@
                   <td>Nguyễn Thị Nga</td>
                   <td><button>Gia hạn</button></td>
               </tr>
-              <tr>
-                  <td>BD0123</td>
-                  <td><i style =" background-color:#1CAEED;border-radius: 4px;">Chờ xử lý</i></td>
-                  <td>Gói 2</td>
-                  <td>20</td>
-                  <td>20/04/2019</td>
-                  <td>20/05/2019</td>
-                  <td>Nguyễn Thị Nga</td>
-                  <td><button>Gia hạn</button></td>
-              </tr>
+             
+            <tr id="hidden">
+              <td>BD0123</td>
+              <td><i style =" background-color:#1CAEED;border-radius: 4px;">Chờ xử lý</i></td>
+              <td>Gói 2</td>
+              <td>20</td>
+              <td>20/04/2019</td>
+              <td>20/05/2019</td>
+              <td>Nguyễn Thị Nga</td>
+              <td><button>Chờ xử lý</button></td>
+          </tr>
+          <tr id="hidden">
+            <td>BD0123</td>
+            <td><i style =" background-color:#1CAEED;border-radius: 4px;">Chờ xử lý</i></td>
+            <td>Gói 2</td>
+            <td>20</td>
+            <td>20/04/2019</td>
+            <td>20/05/2019</td>
+            <td>Nguyễn Thị Nga</td>
+            <td><button>Chờ xử lý</button></td>
+        </tr>
+        <tr id="hidden">
+          <td>BD0123</td>
+          <td><i style =" background-color:#1CAEED;border-radius: 4px;">Chờ xử lý</i></td>
+          <td>Gói 2</td>
+          <td>20</td>
+          <td>20/04/2019</td>
+          <td>20/05/2019</td>
+          <td>Nguyễn Thị Nga</td>
+          <td><button>Chờ xử lý</button></td>
+      </tr>
               </tbody>
             </table>
-            <hr class="line"/>
-            <a href="#">show more</a>
+            
+            <div class="text-align">
+              <a href="#hidden"  aria-expanded="false" data-toggle="collapse" >Show more <i class="fas fa-caret-down" ></i></a>
+            </div>
           </div>
         </div>
 
 
         <div class="container ">
+          <div class="row">
+
+         
           <div class ="row icon-item">
             <div class="col-sm-4">
               <div class="container-img-left img-left">
@@ -266,54 +295,16 @@
                 </li>
               </ul>
             </div>
+            
             </div>
-
-        </div>
-        <!--NỘI DUNG TẢI LÊN-->
-        <!--
-        <div class="container">
-          <div class="row">
-            <div class="content-upload">
-              <h3>Nội Dung tải lên</h3>
-              <div class="box-image">
-                  <div class="container-img-left">
-                      <div class="img">
-                          <img src="resource/img/4.png" alt="">
-                      </div>
-                  </div>
-                  <div class="container-img-right">
-                      <div class="img">
-                          <img src="resource/img/5.png" alt="">
-                      </div>
-                      <div class="img">
-                          <img src="resource/img/7.png" alt="">
-                      </div>
-                      <div class="img">
-                          <img src="resource/img/9.png" alt="">
-                      </div>
-                      <div class="img">
-                          <img src="resource/img/11.png" alt="">
-                      </div>
-                      <div class="img">
-                          <img src="resource/img/6.png" alt="">
-                      </div>
-                      <div class="img">
-                          <img src="resource/img/8.png" alt="">
-                      </div>
-                      <div class="img">
-                          <img src="resource/img/10.png" alt="">
-                      </div>
-                      <div class="img">
-                          <img src="resource/img/12.png" alt="">
-                      </div>
-
-                  </div>
-
-              </div>
+            <div class="row show">
+              <a href="#" style="text-align: center;">Show more</a>
+            </div>
+            
           </div>
-          </div>
+           
         </div>
-    -->
+       
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
