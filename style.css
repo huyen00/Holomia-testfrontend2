@@ -1,5 +1,6 @@
 /*-------------------------------HEAD-----------------------------------*/
-.head{
+
+/*.head{
    margin-top: 10px;
    padding-bottom: 10px;
 }
@@ -62,6 +63,7 @@
 
 
 /*----------------------------------CONTENT----------------------------------*/
+/*
 .container{
     margin-top:90px;
     z-index: 1;
@@ -104,7 +106,7 @@ p{
 
 
 /*--------------------------------LỊCH SỬ THUÊ-----------------------------------------*/
-.icon-item{
+/*.icon-item{
     background: #FFFFFF;
     box-shadow: 0px 0px 16px 9px rgb(0 0 0 / 15%);
     border-radius: 4px;
@@ -127,7 +129,7 @@ button{
     padding: 520px;
 }
 /*-------------------------NỘI DUNG TẢI LÊN--------------------------------*/
-.content-upload .box-image .container-img-left .img img{
+/*.content-upload .box-image .container-img-left .img img{
     position: absolute;
     width:25%;
 }
@@ -240,7 +242,7 @@ button{
 
 */
 
-span{
+/*span{
     color:#3D5AFE;
     font-size: 30px;
     display:inline-block;
@@ -275,4 +277,224 @@ h4,p{
 }
 
 
+*/
 
+
+
+
+/*-------------------------------HEAD-----------------------------------*/
+.head{
+    margin-top: 10px;
+    padding-bottom: 10px;
+ }
+ .container-fluid{
+     background: #FFFFFF;
+     box-shadow: 0px 0px 16px 9px rgb(0 0 0 / 15%);
+     border-radius: 4px;
+    height: 100px;
+ 
+ }
+ .smart{
+     margin-top:20px;
+ }
+ .nav{
+     margin-top:20px;
+     margin-left: 20px;
+     font-size:20px;
+     
+ }
+ .nav a{
+     color:black;
+ }
+ 
+ .buttom-head{
+     display:inline-block;
+     margin-right:40px;
+     margin-top:20px;
+    
+     
+   
+ }
+ .buttom-head button{
+     background-color:#3D5AFE; 
+     color:#FFF;
+ }
+ .img-avat{
+    display: inline-block;
+    margin-top:20px
+ }
+ 
+ 
+ 
+ /*----------------------------------CONTENT----------------------------------*/
+ .container{
+     margin-top:90px;
+     z-index: 1;
+ }
+ .overview-list{
+     background: #FFFFFF;
+     box-shadow: 0px 0px 16px 9px rgb(0 0 0 / 15%);
+     border-radius: 4px;
+     height:auto;
+     width:100%;
+    
+ }
+ .overview-item {
+    
+     margin-left: 20px;
+ }
+ 
+ 
+ 
+ .icon{
+     display: inline-block;
+     text-align: right;
+     padding:10px;
+ }
+ .icon img{
+     transform: translateY(-40px);
+     background: #FFFFFF;
+     box-shadow: 0px 0px 16px 9px rgb(0 0 0 / 15%);
+     border-radius: 4px;
+ }
+   
+ 
+ p{
+    float:right;
+ 
+ }
+ .infor{
+     padding:10px;
+ }
+ 
+ 
+ /*--------------------------------LỊCH SỬ THUÊ-----------------------------------------*/
+ .icon-item{
+     background: #FFFFFF;
+     box-shadow: 0px 0px 16px 9px rgb(0 0 0 / 15%);
+     border-radius: 4px;
+ }
+ .icon-item h3{
+     padding:15px;
+ }
+ 
+ .table-thead {
+     background-color:#d6cdcd;  
+     color:#B2B2B2;
+ 
+ }
+ button{
+     background-color:#3D5AFE; 
+     color:#fff;
+ }
+ .text-align a{
+     text-align: center;
+     padding: 520px;
+ }
+ /*-------------------------NỘI DUNG TẢI LÊN--------------------------------*/
+ .content-upload .box-image .container-img-left .img img{
+     position: absolute;
+     width:25%;
+ }
+ 
+ .meals-showcase{
+     list-style:  none;
+     width: 100%;
+ 
+ }
+ .meals-showcase li{
+     display: block;
+     float: left;
+     width: 25%;
+ }
+ .meals-photo{
+     width:100%;
+     margin:0;
+   
+ }
+ .meals-photo img{
+    
+     width:100%;
+     height:auto;
+    
+     
+ 
+ }
+ .container-img-left{
+     width:100%;
+     height:auto;
+    
+ }
+ .img-left img:hover{
+     opacity: 1;
+     transform:scale(1.03);
+    
+ }
+ .meals-photo img:hover{
+     opacity: 1;
+     transform:scale(1.03);
+ }
+ 
+ /*--------------------------------CONTENT CHÍNH---------------------------------------*/
+ 
+ 
+ span{
+     color:#3D5AFE;
+     font-size: 30px;
+     display:inline-block;
+     border:2px solid #3D5AFE;
+     border-radius:50%;
+     height:50px;
+     width:52px;
+     text-align: center;
+     margin-right: 45px;
+ }
+ .caption{
+     display:inline-block;
+    
+ }
+ h4,p{
+     display:block;
+    
+ }
+ 
+ .row-content{
+    
+     background: #fff;
+     box-shadow: 0px 0px 16px 9px rgb(0 0 0 / 15%);
+ }
+ .col1{
+     margin-top: 90px;
+    
+ }
+ .start-now{
+     margin-top: 30px;
+     width:130px;
+ }
+ 
+ .showmore{
+     margin-left: 520px;;
+ }
+ .drop-box{
+    border: 2px solid #3D5AFE; 
+    background: #fff;
+    border-radius: 5px;
+    position:absolute;
+    z-index:2;
+    padding:30px;
+    width:auto;
+    margin-left: 20px;
+   
+}
+
+.conten-box{
+   display: inline-block;
+   
+    text-align: right;
+
+}
+.head-box{
+    display:inline-block;
+}
+ 
+ 
