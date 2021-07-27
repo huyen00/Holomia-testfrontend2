@@ -1,14 +1,12 @@
 
 /*-------------------------------HEAD-----------------------------------*/
-.head{
-    margin-top: 10px;
-    padding-bottom: 10px;
- }
- .container-fluid{
+
+ .head{
      background: #FFFFFF;
      box-shadow: 0px 0px 16px 9px rgb(0 0 0 / 15%);
      border-radius: 4px;
-    height: 100px;
+    height: 76.78px;
+    width:1366px;
  
  }
  .smart{
@@ -27,28 +25,28 @@
  .buttom-head{
      display:inline-block;
      margin-right:40px;
-     margin-top:20px;
-    
-     
-   
- }
- 
- .buttom-head button{
-     background-color:#3D5AFE; 
-     color:#FFF;
+     margin-top:20px; 
  }
  .img-avat{
     display: inline-block;
-    margin-top:20px
+    margin-top:10px
  }
  .nav-link.active{
      color:#3D5AFE;
  }
- 
- 
- 
- 
+ .logo{
+    position: absolute;
+    width: 150px;
+    height: 24px;
+    left: 76px;
+    font-size:35px;
+    
+ }
  /*----------------------------------CONTENT----------------------------------*/
+ .container-fluid{
+    background: #E5E5E5;
+    padding-top: 4px;
+ }
  .container{
      margin-top:90px;
      z-index: 1;
@@ -59,27 +57,24 @@
      border-radius: 4px;
      height:auto;
      width:100%;
-    
  }
  .overview-item {
     
      margin-left: 20px;
  }
- 
- 
- 
  .icon{
      display: inline-block;
      text-align: right;
      padding:10px;
  }
  .icon img{
-     transform: translateY(-40px);
-     background: #FFFFFF;
-     box-shadow: 0px 0px 16px 9px rgb(0 0 0 / 15%);
-     border-radius: 4px;
- }
+    transform: translateY(-70px);
+    border-radius: 8px;
    
+ }
+ .icon h4{
+    font-size: 40px;
+ }
  
  p{
     float:right;
@@ -89,6 +84,7 @@
      padding:10px;
  }
  /*--------------------------------accout----------------------------------------*/
+ 
  .avata-box{
      display:inline-block;
  }
@@ -96,7 +92,6 @@
     display: inline-block;
      text-align: right;
      margin-left: 15px;
- 
  }
  .head-box{
      display:inline-block;
@@ -109,10 +104,7 @@
     z-index:100;
     padding:20px;
     width:auto;
-   
-    margin-left: 20px;
-   
-   
+    margin-left: 20px; 
 }
 .drop-box::before{
     content: "";
@@ -124,48 +116,61 @@
     top: 0;
     right: 1.8em;
     transform: translateY(-100%);
-
 }
 .line{
     margin-top:5px;
     margin-bottom: 5px;
 }
-
-
  /*--------------------------------LỊCH SỬ THUÊ-----------------------------------------*/
  .icon-item{
+     padding:20px;
+ }
+ .item{
+     margin-top:40px;
+     padding:20px;
      background: #FFFFFF;
-     box-shadow: 0px 0px 16px 9px rgb(0 0 0 / 15%);
-     border-radius: 4px;
+    box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
  }
- .icon-item h3{
-     padding:15px;
+ .item h4{
+    font-family: 'Montserrat', sans-serif;
  }
- 
  .table-thead {
-     background-color:#d6cdcd;  
+     background-color:#EEEEEE;
      color:#B2B2B2;
- 
  }
- button{
-     background-color:#3D5AFE; 
+ .table a{
+    background: #3D5AFE;
+    border-radius: 3px;
      color:#fff;
-     width:110px;
+     width:100px;
      height:30px;
  }
- .text-align a{
-     text-align: center;
-     padding: 520px;
+ .showmo{
+  margin-left:500px;
  }
+ 
  /*-------------------------NỘI DUNG TẢI LÊN--------------------------------*/
- .container{
-     padding-left: 0;
+ .upload-img h4{
+    font-family: 'Montserrat', sans-serif;
+    margin:20px;
  }
+ .upload{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    margin-top: 40px;
+ }
+ 
  .content-upload .box-image .container-img-left .img img{
      position: absolute;
      width:25%;
  }
- 
+.icon-img{
+    padding-left:10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
  .meals-showcase{
      list-style:  none;
      width: 100%;
@@ -208,7 +213,7 @@
  .work-it{
      padding-bottom:50px;
  }
- span{
+ .numberr{
      color:#3D5AFE;
      font-size: 30px;
      display:inline-block;
@@ -247,7 +252,6 @@
  .showmore{
      margin-left: 520px;;
  }
- 
 
 
  
