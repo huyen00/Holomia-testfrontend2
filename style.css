@@ -4,6 +4,9 @@
     margin-left:76px;
     
 }
+#menu .navbar-nav.nav-item{
+    display: flex;
+}
 
 .btn{
     margin-right:20px;
@@ -37,17 +40,14 @@
      font-family: Montserrat;
      text-align: center;
      font-style: normal;
-    color:#505D68;
-  
-    
+     color:black;
  }
  .nav-item .btn{
     background: #3D5AFE;
     border-radius: 4px;
  }
- .nav-item .nav-link :active{
-     color:#3D5AFE;
- }
+ 
+ 
  
 @media (min-width: 957px) {
     .item{
@@ -137,8 +137,6 @@
     border-radius: 4px;
     width:75%;
     margin-top: 50px;
-   
-   
 }
 
 /*--------------------------------LỊCH SỬ THUÊ-----------------------------------------*/
@@ -154,16 +152,14 @@
 .main2 h4{
     padding:10px;
 }
-.t{
-   margin-left:20px;
-   margin-right: 10px;
-    width:75%;
-}
-
 .table-thead {
     background-color:#EEEEEE;
     color:#B2B2B2;
 
+}
+.table{
+    margin-right:10px;
+    margin-left:10px;
 }
 .table a{
    background: #3D5AFE;
@@ -284,7 +280,8 @@
     padding-left:5px;
 }
 .meals-showcase{
-     margin-block-end: 10px;
+     margin-block-end: 5px;
+     margin-block-start: 5px;
      padding-inline-start: 10px;
   
 }
@@ -295,6 +292,15 @@
 }
 .main3 h4{
     padding:10px;
+    
+}
+/*--------------------------------main4-FOOTER----------------------------------------*/
+footer{
+    height: 200px;
+    margin-top: -100px;
+    background-color: #fff;
+    position: relative;
+    z-index: -1;
 }
 /*--------------------------------accout----------------------------------------*/
  #menu{
@@ -312,14 +318,18 @@
     display:inline-block;
 }
 .drop-box{
-   border: 2px solid #3D5AFE; 
-   background: #fff;
-   border-radius: 10px;
-   position:absolute;
-   z-index:100;
-   padding:20px;
-   width:auto;
-   margin-right: 200px; 
+    position: absolute;
+    right: -2em;
+    bottom: 0;
+    transform: translateY(100%);
+    background-color: #fff;
+    padding: 1em 0.5em;
+    width: 270px;
+    border: 2px solid #3D5AFE;
+    border-radius: 5px;
+    z-index: 100;
+    padding:20px;
+   
 }
 .drop-box::before{
    content: "";
@@ -329,7 +339,7 @@
    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
    position: absolute;
    top: 0;
-   right: 1.8em;
+   right: 3.5em;
    transform: translateY(-100%);
 }
 .line{
@@ -337,8 +347,65 @@
    margin-bottom: 5px;
 }
 .container{
-    z-index: -8;
+    z-index: 1;
 }
+/*--------------------------------CONTENT CHÍNH WORK ITS---------------------------------------*/
+.work-it{
+    padding-left: 30px;
+}
+.numberr{
+    color:#3D5AFE;
+    font-size: 30px;
+    display:inline-block;
+    border:2px solid #3D5AFE;
+    border-radius:50%;
+    height:50px;
+    width:52px;
+    text-align: center;
+    margin-right: 45px;
+}
+.caption{
+    display:inline-block;
+   
+   
+}
+h4,p{
+    display:block;
+   
+}
+.step-item{
+    display:flex;
+    padding:20px;
+}
+
+.row-content{
+   z-index: -1;
+    background: #fff;
+    box-shadow: 0px 0px 16px 9px rgb(0 0 0 / 15%);
+    margin-top: 50px;
+    width:1216px;
+    height:100%;
+    padding-bottom: 30px;
+}
+.col1{
+    width:39%;
+    margin-top: 90px;
+  
+   
+}
+.col2{
+    width:56%;
+    margin-top: 90px;
+  
+}
+.col1 .btn{
+    margin-top: 30px;
+    width:130px;
+   
+    border-radius: 4px;
+}
+
+
 
 /*-------------------------------HEAD-----------------------------------
 .icon-item{
