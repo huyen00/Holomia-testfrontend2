@@ -4,6 +4,7 @@
     margin-left:76px;
     
 }
+
 .btn{
     margin-right:20px;
     margin-top :10px;
@@ -44,6 +45,10 @@
     background: #3D5AFE;
     border-radius: 4px;
  }
+ .nav-item .nav-link :active{
+     color:#3D5AFE;
+ }
+ 
 @media (min-width: 957px) {
     .item{
         width: 32%;
@@ -144,6 +149,7 @@
     background: #FFFFFF;
     box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+   
 }
 .main2 h4{
     padding:10px;

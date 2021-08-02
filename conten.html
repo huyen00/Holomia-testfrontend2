@@ -11,32 +11,76 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+      .bg-danger{
+        background-color:#fff !important;
+        box-shadow: 0px 0px 16px 9px rgb(0 0 0 / 15%);
+     border-radius: 4px;
+     
+      }
+      body{
+          z-index: -1;
+          background-color: #E5E5E5;
+      }
+    </style>
   </head>
   <body>
-    <nav class="navbar navbar-expand-md navbar-light bg-danger fixed-top" >
-      <div class="navbar-brand">
-        <span>Smart<b>VR</b></span>
-      </div>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse justify-content-center" id="menu">
-        <ul class="navbar-nav">
-          <li class="nav-item"><a class="nav-link active" href="#">DASHBOARD</a></li>
-          <li class="nav-item"><a class="nav-link" href="index.html">CONTENT</a></li>
-          <li class="nav-item"><a class="nav-link active" href="conten.html">LICENSE</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">SUPPORT</a></li>
-        </ul>
-      </div>
-      <div class="collapse navbar-collapse justify-content-end" id="menu">
-        <ul class="navbar-nav">
-          <li class="nav-item"><a class="btn btn-primary " href="#">Nâng Cấp</a></li>
-          <li class="nav-item"> <img src="resource/img/avata.png" alt="avata"><i class="fas fa-caret-down"style="margin-left:30px;color: #C4C4C4;" ></i></li>
-        </ul>
-       
-      </div>
-
-    </nav>
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-md navbar-light bg-danger " >
+        <div class="navbar-brand">
+          <span class="logo">Smart<b>VR</b></span>
+        </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="menu">
+          <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link active" href="./index.html">DASHBOARD</a></li>
+            <li class="nav-item"><a class="nav-link" href="./conten.html">CONTENT</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">LICENSE</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">SUPPORT</a></li>
+          </ul>
+        </div>
+        <div class="collapse navbar-collapse justify-content-end" id="menu">
+          <ul class="navbar-nav">
+            <li class="nav-item"><a class="btn btn-primary " href="#">Nâng Cấp</a></li>
+            <li class="nav-item"> <img src="resource/img/avata.png" alt="avata">
+              <a href="#accoutt" aria-expanded="false" data-toggle="collapse" > <i class="fas fa-caret-down"style="margin-left:30px;color: #C4C4C4;" ></i></a>
+              <div class="drop-icon collapse" id="accoutt">
+                <div class="drop-box">
+                  <div class="head-box">
+                    <div class="avata-box">
+                      <img src="resource/img/avata.png" alt="avata">
+                    </div>
+                   
+                    <div class="conten-box">
+                      <h5>Nguyễn Thị Nga</h5>
+                      <p>ngant@gmail.com</p>
+                    </div>
+                  </div>
+                  <hr class="line"/>
+                  <div class="nav-list">
+                    <div class="nav-item">
+                      <a href="#">Lịch sử giao dịch</a>
+                    </div>
+                    <hr class="line"/>
+                    <div class="nav-item">
+                      <a href="#">Cài đặt</a>
+                    </div>
+                    <hr class="line"/>
+                    <div class="nav-item">
+                      <a href="#">Đăng xuất</a>
+                    </div>
+                  </div>
+                </div>
+              </div>    
+            </li>
+              
+          </ul>      
+        </div>
+      </nav>
+    </div>
+    
         <!---HOW IT WORK-->
         <div class="container row-content">
           <div class="row work-it">
