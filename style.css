@@ -1,10 +1,8 @@
-body{
-    z-index: -10;
-}
+
 .logo{
     font-size:30px;
-    margin-left:20px;
-   
+    margin-left:76px;
+    
 }
 .btn{
     margin-right:20px;
@@ -32,6 +30,19 @@ body{
     
      margin-top:0px;
      margin-bottom: 0px;
+ }
+ .nav-item .nav-link{
+     font-size: 16px;
+     font-family: Montserrat;
+     text-align: center;
+     font-style: normal;
+    color:#505D68;
+  
+    
+ }
+ .nav-item .btn{
+    background: #3D5AFE;
+    border-radius: 4px;
  }
 @media (min-width: 957px) {
     .item{
