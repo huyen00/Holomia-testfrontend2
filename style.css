@@ -1,4 +1,5 @@
 
+/*-----------------------LOGO-------------------------------*/
 .logo{
     font-size:30px;
     margin-left:76px;
@@ -12,6 +13,7 @@
     margin-right:20px;
     margin-top :10px;
 }
+/*---------------------------------main-----------------------*/
 .main{
     justify-content: space-between;
     display: flex;
@@ -22,6 +24,9 @@
 .yellow{
     transform: translateY(-50px);
     border-radius: 8px;
+}
+.content{
+    z-index: 1;
 }
 .content p{
     text-align: right;
@@ -46,9 +51,6 @@
     background: #3D5AFE;
     border-radius: 4px;
  }
- 
- 
- 
 @media (min-width: 957px) {
     .item{
         width: 32%;
@@ -123,14 +125,6 @@
 
 }
 
-
-/* .item{
-    width: 32%;
-    padding: 1em 2em;
-    border-radius: 4px;
-    box-shadow: 0px 0px 16px;
-    display: flex;
-} */
 .icon{
     background: #FFFFFF;
     box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.15);
@@ -140,6 +134,7 @@
 }
 
 /*--------------------------------LỊCH SỬ THUÊ-----------------------------------------*/
+
 .main2{
     margin-top: 50px;
     left: 75px;
@@ -207,11 +202,6 @@
    padding-bottom: 10px;
    padding-right: 10px;
 }
-.meals-showcase{
-    list-style:  none;
-    width: 100%;
-
-}
 .meals-showcase li{
     display: block;
     float: left;
@@ -220,15 +210,13 @@
 .meals-photo{
     width:100%;
     margin:0;
-  
+    padding-right:5px;
+    padding-left:5px;
+    position: relative;
 }
 .meals-photo img{
-   
     width:100%;
     height:auto;
-   
-    
-
 }
 .container-img-left{
     width:100%;
@@ -243,8 +231,8 @@
 .caption h4 {
     text-align: center;
     position: absolute;
-    top: 10%;
-    left: 20%;
+    top: 30%;
+    left: 50%;
     width: 100%;
     color: #fff;
     transform: translateX(-50%);
@@ -252,18 +240,7 @@
     opacity: 0;
     transition: all 0.5s;
 }
-.caption1 h4 {
-    text-align: center;
-    position: absolute;
-    top: 10%;
-    left: 40%;
-    width: 100%;
-    color: #fff;
-    transform: translateX(-80%);
-    text-shadow: 0 0 3px black;
-    opacity: 0;
-    transition: all 0.5s;
-}
+
 .caption h4:hover{
     opacity:1;
 }
@@ -275,13 +252,10 @@
     transform:scale(1.03);
     
 }
-.meals-photo{
-    padding-right:5px;
-    padding-left:5px;
-}
 .meals-showcase{
-     margin-block-end: 5px;
-     margin-block-start: 5px;
+    list-style:  none;
+    width: 100%;
+     margin-block-end: 0px;
      padding-inline-start: 10px;
   
 }
@@ -296,59 +270,66 @@
 }
 /*--------------------------------main4-FOOTER----------------------------------------*/
 footer{
-    height: 200px;
+    height: 100px;
     margin-top: -100px;
     background-color: #fff;
     position: relative;
     z-index: -1;
 }
 /*--------------------------------accout----------------------------------------*/
- #menu{
-     margin-right:30px;
- }
- .avata-box{
-    display:inline-block;
-}
-.conten-box{
-   display: inline-block;
-    text-align: right;
-    margin-left: 15px;
+.drop-box{
+    width:260px;
+    height:250px;
+    border: 1px solid #3D5AFE;
+    padding:15px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 15%);
+  
+    
 }
 .head-box{
-    display:inline-block;
+    display:flex;
+   padding-bottom:10px;
 }
-.drop-box{
+.content-account{
+    width:87%;
+    margin:0
+}
+.mainn ul{
+    list-style: none;
+    padding:0;
+
+  }
+  .mainn a{
+    padding:10px 0 10px 0px;
+    border-top: 0.5px solid rgba(0, 0, 0, 0.2);
+    display:block;
+    text-decoration: none;
+    height:100%;
+    color:black;
+
+  }
+  .conten-box{
+      padding-left: 15px;
+  }
+  .drop-box::before{
+    content: "";
+    width: 27px;
+    height: 13px;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    border: 8px solid #3D5AFE;
     position: absolute;
-    right: -2em;
-    bottom: 0;
-    transform: translateY(100%);
-    background-color: #fff;
-    padding: 1em 0.5em;
-    width: 270px;
-    border: 2px solid #3D5AFE;
-    border-radius: 5px;
+    top: 0;
+    right: 1.5em;
+    transform: translateY(-100%);
+ }
+ .drop-icon{
+    position: absolute;
+    right:10px;
     z-index: 100;
-    padding:20px;
-   
-}
-.drop-box::before{
-   content: "";
-   width: 27px;
-   height: 13px;
-   background-color: #3D5AFE;
-   clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
-   position: absolute;
-   top: 0;
-   right: 3.5em;
-   transform: translateY(-100%);
-}
-.line{
-   margin-top:5px;
-   margin-bottom: 5px;
-}
-.container{
-    z-index: 1;
-}
+ }
+ 
 /*--------------------------------CONTENT CHÍNH WORK ITS---------------------------------------*/
 .work-it{
     padding-left: 30px;
@@ -366,18 +347,14 @@ footer{
 }
 .caption{
     display:inline-block;
-   
-   
 }
 h4,p{
     display:block;
-   
 }
 .step-item{
     display:flex;
     padding:20px;
 }
-
 .row-content{
    z-index: -1;
     background: #fff;
@@ -390,8 +367,6 @@ h4,p{
 .col1{
     width:39%;
     margin-top: 90px;
-  
-   
 }
 .col2{
     width:56%;
@@ -404,276 +379,42 @@ h4,p{
    
     border-radius: 4px;
 }
-
-
-
-/*-------------------------------HEAD-----------------------------------
-.icon-item{
-    padding:20px;
+/*   --------------------------Tạo hiệu ứng di chuyển slideanim---------*/
+.slideanim {
+    visibility:hidden;
+    visibility:visible;
 }
-.item{
-    margin-top:40px;
-    padding:20px;
-    background: #FFFFFF;
-   box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.15);
-   border-radius: 4px;
-}
-.item h4{
-   font-family: 'Montserrat', sans-serif;
-}
+.slideanim.slide {                  
+    visibility: visible;                  
+    animation-duration: slide 1s;
+    animation-name:slide;
+    -webkit-animation-name: slide;
+    -webkit-animation-duration: 1s;
 
- .head{
-     background: #FFFFFF;
-     box-shadow: 0px 0px 16px 9px rgb(0 0 0 / 15%);
-     border-radius: 4px;
-    height: 76.78px;
-    width:1366px;
- 
- }
- .smart{
-     margin-top:20px;
- }
- .nav{
-     margin-top:20px;
-     margin-left: 20px;
-     font-size:20px;
-     
- }
- .nav a{
-     color:black;
- }
- 
- .buttom-head{
-     display:inline-block;
-     margin-right:40px;
-     margin-top:20px; 
- }
- .img-avat{
-    display: inline-block;
-    margin-top:10px
- }
- .nav-link.active{
-     color:#3D5AFE;
- }
- .logo{
-    position: absolute;
-    width: 150px;
-    height: 24px;
-    left: 76px;
-    font-size:35px;
-    
- }
-
-.container-fluid{
-    background: #E5E5E5;
-    padding-top: 4px;
- }
- .container{
-     margin-top:90px;
-     z-index: 1;
- }
- .overview-list{
-     background: #FFFFFF;
-     box-shadow: 0px 0px 16px 9px rgb(0 0 0 / 15%);
-     border-radius: 4px;
-     height:auto;
-     width:100%;
- }
- .overview-item {
-    
-     margin-left: 20px;
- }
- .icon{
-     display: inline-block;
-     text-align: right;
-     padding:10px;
- }
- .icon img{
-    transform: translateY(-70px);
-    border-radius: 8px;
+}
+.slideanim::after {
    
- }
- .icon h4{
-    font-size: 40px;
- }
- 
- p{
-    float:right;
- 
- }
- 
- /*--------------------------------accout----------------------------------------
- 
- .avata-box{
-    display:inline-block;
+    content: "";
+    display: table;
+    clear: both;
 }
-.conten-box{
-   display: inline-block;
-    text-align: right;
-    margin-left: 15px;
+@keyframes slide {
+    0% {
+        opacity: 0;
+        transform: translateY(70%);
+    } 
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    } 
 }
-.head-box{
-    display:inline-block;
+@-webkit-keyframes slide{
+    0% {
+        opacity: 0;
+        transform: translateY(70%);
+    } 
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    } 
 }
-.drop-box{
-   border: 2px solid #3D5AFE; 
-   background: #fff;
-   border-radius: 10px;
-   position:absolute;
-   z-index:100;
-   padding:20px;
-   width:auto;
-   margin-left: 20px; 
-}
-.drop-box::before{
-   content: "";
-   width: 27px;
-   height: 13px;
-   background-color: #3D5AFE;
-   clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
-   position: absolute;
-   top: 0;
-   right: 1.8em;
-   transform: translateY(-100%);
-}
-.line{
-   margin-top:5px;
-   margin-bottom: 5px;
-}*/
-/*--------------------------------LỊCH SỬ THUÊ-----------------------------------------
-.icon-item{
-    padding:20px;
-}
-.item{
-    margin-top:40px;
-    padding:20px;
-    background: #FFFFFF;
-   box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.15);
-   border-radius: 4px;
-}
-.item h4{
-   font-family: 'Montserrat', sans-serif;
-}
-.table-thead {
-    background-color:#EEEEEE;
-    color:#B2B2B2;
-}
-.table a{
-   background: #3D5AFE;
-   border-radius: 3px;
-    color:#fff;
-    width:100px;
-    height:30px;
-}
-.showmo{
- margin-left:500px;
-}
-*/
-/*-------------------------NỘI DUNG TẢI LÊN--------------------------------
-.upload-img h4{
-   font-family: 'Montserrat', sans-serif;
-   margin:20px;
-}
-.upload{
-   background: #FFFFFF;
-   box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.15);
-   border-radius: 4px;
-   margin-top: 40px;
-}
-
-.content-upload .box-image .container-img-left .img img{
-    position: absolute;
-    width:25%;
-}
-.icon-img{
-   padding-left:10px;
-   padding-bottom: 10px;
-   padding-right: 10px;
-}
-.meals-showcase{
-    list-style:  none;
-    width: 100%;
-
-}
-.meals-showcase li{
-    display: block;
-    float: left;
-    width: 25%;
-}
-.meals-photo{
-    width:100%;
-    margin:0;
-  
-}
-.meals-photo img{
-   
-    width:100%;
-    height:auto;
-   
-    
-
-}
-.container-img-left{
-    width:100%;
-    height:auto;
-   
-}
-.img-left img:hover{
-    opacity: 1;
-    transform:scale(1.03);
-   
-}
-.meals-photo img:hover{
-    opacity: 1;
-    transform:scale(1.03);
-}
-*/
-/*--------------------------------CONTENT CHÍNH WORK ITS---------------------------------------
-.work-it{
-    padding-bottom:50px;
-}
-.numberr{
-    color:#3D5AFE;
-    font-size: 30px;
-    display:inline-block;
-    border:2px solid #3D5AFE;
-    border-radius:50%;
-    height:50px;
-    width:52px;
-    text-align: center;
-    margin-right: 45px;
-}
-.caption{
-    display:inline-block;
-   
-   
-}
-h4,p{
-    display:block;
-   
-}
-
-.row-content{
-   z-index: -1;
-    background: #fff;
-    box-shadow: 0px 0px 16px 9px rgb(0 0 0 / 15%);
-}
-.col1{
-    margin-top: 90px;
-    padding-left: 30px;
-   
-}
-.start-now{
-    margin-top: 30px;
-    width:130px;
-}
-
-.showmore{
-    margin-left: 520px;;
-}
-
-
-
- */
- /*----------------------------------CONTENT----------------------------------*/
- 
