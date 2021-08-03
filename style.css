@@ -355,6 +355,16 @@ h4,p{
     display:flex;
     padding:20px;
 }
+.numberr::after{
+    content:"";
+    width:2px;
+    height:100px;
+    background-color: #3D5AFE;
+    margin-left: 25px;
+}
+@media screen and (max-width :1125px){
+
+}
 .row-content{
    z-index: -1;
     background: #fff;
